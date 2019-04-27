@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieColoursFW4", "MovieColoursFW4\MovieColoursFW4.csproj", "{A00FCDBA-8306-46DB-A323-E73290E8B0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieColoursFW4.Tests", "MovieColoursFW4.Tests\MovieColoursFW4.Tests.csproj", "{241DAF49-62A1-4360-9B31-6F0101D93747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00FCDBA-8306-46DB-A323-E73290E8B0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00FCDBA-8306-46DB-A323-E73290E8B0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00FCDBA-8306-46DB-A323-E73290E8B0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00FCDBA-8306-46DB-A323-E73290E8B0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241DAF49-62A1-4360-9B31-6F0101D93747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241DAF49-62A1-4360-9B31-6F0101D93747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241DAF49-62A1-4360-9B31-6F0101D93747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241DAF49-62A1-4360-9B31-6F0101D93747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC77DFF8-B66B-4119-ACD8-BCE15144928D}
+	EndGlobalSection
+EndGlobal

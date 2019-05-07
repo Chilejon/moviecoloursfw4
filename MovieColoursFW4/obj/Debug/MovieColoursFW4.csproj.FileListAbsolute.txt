@@ -96,3 +96,5 @@ c:\code\MovieColoursFW4\MovieColoursFW4\bin\tr\ZedGraph.resources.dll
 c:\code\MovieColoursFW4\MovieColoursFW4\bin\zh-cn\ZedGraph.resources.dll
 c:\code\MovieColoursFW4\MovieColoursFW4\bin\zh-tw\ZedGraph.resources.dll
 c:\code\MovieColoursFW4\MovieColoursFW4\obj\Debug\MovieColoursFW4.csprojAssemblyReference.cache
+c:\code\MovieColoursFW4\MovieColoursFW4\bin\MediaToolkit.dll
+c:\code\MovieColoursFW4\MovieColoursFW4\bin\MediaToolkit.pdb

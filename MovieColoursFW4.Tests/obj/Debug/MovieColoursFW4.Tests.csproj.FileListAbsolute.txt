@@ -6,10 +6,6 @@ c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MovieColoursFW4.Tests.pd
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MovieColoursFW4.dll
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.abstractions.dll
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.assert.dll
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.core.dll
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.execution.desktop.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.Mvc.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.WebPages.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.WebPages.Razor.dll
@@ -20,10 +16,6 @@ c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MovieColoursFW4.pdb
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MovieColoursFW4.dll.config
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.abstractions.xml
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.assert.xml
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.core.xml
-c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\xunit.execution.desktop.xml
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.Mvc.xml
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.WebPages.xml
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\System.Web.WebPages.Razor.xml
@@ -46,3 +38,5 @@ c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\x86\opencv_ffmpeg401.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\x86\vcruntime140.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Emgu.CV.World.dll
 c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\Emgu.CV.World.xml
+c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MediaToolkit.dll
+c:\code\MovieColoursFW4\MovieColoursFW4.Tests\bin\Debug\MediaToolkit.pdb

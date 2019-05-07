@@ -53,8 +53,8 @@ namespace MovieColoursFW4.Tests
         {
             FileHelper FH = new FileHelper();
 
-            string videoPath = "C:\\Users\\JonC\\Videos\\720_trans_3.mp4";
-            string outPath = "C:\\Users\\JonC\\Videos\\captures";
+            string videoPath = "C:\\Users\\JonC\\Videos\\sw.mp4";
+            string outPath = "C:\\Users\\JonC\\Videos\\sw";
 
             FH.ProcessAVideo(videoPath, outPath);
 

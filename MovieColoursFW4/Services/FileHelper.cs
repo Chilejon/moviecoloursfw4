@@ -28,29 +28,33 @@ namespace MovieColoursFW4.Services
 
             foreach (var item in allFiles)
             {
-                var file = new Files();
-                file.DateCreated = item.CreationTime;
-                file.Filename = item.Name;
+
+                if (item.FullName.Contains("jpeg") || item.FullName.Contains("png"))
+                {
+                    var file = new Files();
+                    file.DateCreated = item.CreationTime;
+                    file.Filename = item.Name;
 
 
-                Image img = Image.FromFile(item.FullName);
-                file.Height = img.Height;
-                file.Width = img.Width;
-                file.Size = img.Height * img.Width;
+                    Image img = Image.FromFile(item.FullName);
+                    file.Height = img.Height;
+                    file.Width = img.Width;
+                    file.Size = img.Height * img.Width;
 
-                //Image<Bgr, Byte> img1 = new Image<Bgr, Byte>(item.FullName);
+                    //Image<Bgr, Byte> img1 = new Image<Bgr, Byte>(item.FullName);
 
-                //var pI = PixelateImage(img1);
+                    //var pI = PixelateImage(img1);
 
-                //img.Dispose();
+                    //img.Dispose();
 
-                //pI.Save(item.FullName);
+                    //pI.Save(item.FullName);
 
-                AverageColor rgb = DoSumit(item.FullName);
+                    AverageColor rgb = DoSumit(item.FullName);
 
-                file.AverageColor = rgb;
+                    file.AverageColor = rgb;
 
-                allFilesList.Add(file);
+                    allFilesList.Add(file);
+                }
             }
 
 
@@ -105,14 +109,16 @@ namespace MovieColoursFW4.Services
                 var mp4 = new MediaFile { Filename = path };
 
                 engine.GetMetadata(mp4);
-
-                var i = 0;
-                while (i < mp4.Metadata.Duration.Seconds)
+                
+                var i = 7500;
+                //var ii = 1;
+                while (i  > 1)
                 {
                     var options = new ConversionOptions { Seek = TimeSpan.FromSeconds(i) };
                     var outputFile = new MediaFile { Filename = string.Format("{0}\\image-{1}.jpeg", outputPath, i) };
                     engine.GetThumbnail(mp4, outputFile, options);
-                    i++;
+                    i = i -1;
+                  //  ii++;
                 }
             }
 

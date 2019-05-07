@@ -32,7 +32,7 @@ namespace MovieColoursFW4.Controllers
 
 
             ViewBag.Hex = viewModel.AverageColor.Hex;
-            
+
 
             return View(viewModel);
         }
@@ -44,25 +44,35 @@ namespace MovieColoursFW4.Controllers
 
             FileHelper FH = new FileHelper();
 
-            string directory = "c:\\moviepictures\\";
+            //string directory = "c:\\moviepictures\\";
+            string directory = "C:\\Users\\JonC\\Videos\\sw";
 
             List<Files> AllFiles = FH.GetFiles(directory);
 
             List<IndexViewModel> viewModel = new List<IndexViewModel>();
 
-            foreach (var item in AllFiles)
+
+            int count = 0;
+
+            foreach (var item in AllFiles.Reverse<Files>())
             {
-                IndexViewModel vm = new IndexViewModel();
+                if (count%2 == 0)
+                {
 
-                vm.Filename = item.Filename;
-                vm.DateCreated = item.DateCreated;
-                vm.AverageColor = item.AverageColor;
-                vm.Height = item.Height;
-                vm.Width = item.Width;
+                    IndexViewModel vm = new IndexViewModel();
 
-                viewModel.Add(vm);
+                    vm.Filename = item.Filename;
+                    vm.DateCreated = item.DateCreated;
+                    vm.AverageColor = item.AverageColor;
+                    vm.Height = item.Height;
+                    vm.Width = item.Width;
+
+                    viewModel.Add(vm);
+                }
+                count++;
 
             }
+
 
 
 
